@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KeyForge</title>
+</head>
+
+<body>
+    <section class="container">
+        <h1>GERADOR DE SENHAS</h1>
+        Ferramenta online para gerar senhas seguras. <br> O KeyForge permite criar uma
+        senha aleatória com diversas opções. <br> Selecione as opções, clique em "Gerar
+        Senha" e confira a senha gerada abaixo do botão.
+        <div class="senha-gerada">Marque as opções</div>
+
+        <label class="checkbox-label">
+            <input type="checkbox" class="chk-maiusculas" checked />
+            Adicionar maiúsculas
+        </label><br />
+
+        <label class="checkbox-label">
+            <input type="checkbox" class="chk-minusculas" checked />
+            Adicionar minúsculas
+        </label><br />
+
+        <label class="checkbox-label">
+            <input type="checkbox" class="chk-numeros" checked />
+            Adicionar números
+        </label><br />
+
+        <label class="checkbox-label">
+            <input type="checkbox" class="chk-simbolos" checked />
+            Adicionar símbolos
+        </label><br/> <br>
+
+
+        <label class="checkbox-label"></label>
+        Tamanho da senha:
+        <p>Tamanho máximo permitido é de 32 caracteres</p>
+        <input type="number" min="1" max="32" class="qtdGerados" />
+        </label><br />
+
+        <button class="gerar-senha">GERAR SENHA</button>
+
+    </section>
+
+    <script src="assets/js/bundle.js"></script>
+</body>
+
+</html>
+
