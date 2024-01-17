@@ -40,12 +40,8 @@ O KeyForge permite criar senhas aleatórias com diversas opções, incluindo mai
 
 ## :memo: Recursos
 
-- Entrada de valores iniciais, taxas de juros, investimento mensal e período de investimento.
-- Opção para escolher entre taxas de juros anuais ou mensais.
-- Opção para escolher entre período de investimento em anos ou meses.
-- Cálculo preciso de juros compostos.
-- Exibição de resultados formatados em moeda BRL (Real Brasileiro).
-- Limpeza fácil dos campos para cálculos subsequentes.
+- Marque/desmarque as caixas de seleção para incluir/excluir tipos de caracteres.
+- Defina o tamanho da senha no campo "Tamanho da senha".
 
 
 ## Contribuição
